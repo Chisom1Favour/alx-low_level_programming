@@ -2,6 +2,8 @@
 /**
  * main - Entry point
  *
+ * Description: This prints out string
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
