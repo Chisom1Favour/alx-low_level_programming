@@ -5,7 +5,7 @@
 /* Main - entry point */ 
 /* Printf: Prints output */
 /* Return: Always 0 (Success) */
-int main(void)
+int main()
 {
       int n;
       srand(time(0));
@@ -16,7 +16,7 @@ int main(void)
       if ( n == 0 ) {
 	 printf( "is zero\n" ); 
       } 
-      if ( n < 0 {
+      if ( n < 0 ) {
 	  printf( "is less than zero\n" );
       }	  
       return (0);
