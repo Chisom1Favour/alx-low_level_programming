@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * maain - prints all possible
+ * main - prints all possible
  * combination of three digits
  *
  * Return: Always 0 (Success)
