@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * main - prints alphabet in lowercase
+ * print_alphabet - prints alphabet in lowercase
  *
  * Return: 0 (Success)
  */
 void print_alphabet(void)
 {
-	int i
+	int i;
 
 	for (i = 97; i <= 122; i++)
 	{
