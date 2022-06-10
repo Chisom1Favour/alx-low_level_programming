@@ -5,12 +5,11 @@
  *
  * @c: The character is ASCII code
  *
- * Return: 1 if c is a letter, lowercase or uppercase
- * return 0 if otherwise
+ * Return: 1 for letters. 0 if otherwise
  */
 int _isalpha(int c)
 {
-	if (c >= 65 && c <= 90) || (c <= 97 && c >= 122)
+	if ((c >= 65 && c <= 90) || (c <= 97 && c >= 122))
 	{
 		return (1);
 	}
@@ -19,6 +18,5 @@ int _isalpha(int c)
 		return (0);
 	}
 	_putchar('\n');
-
 }
 
