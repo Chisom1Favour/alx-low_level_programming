@@ -8,7 +8,7 @@ void print_rev(char *s)
 {
 	int i, n;
 
-	s = "bring"
+	s = "bring";
 	n = strlen(s);
 
 	for (i = n - 1; i >= 0; i--)
