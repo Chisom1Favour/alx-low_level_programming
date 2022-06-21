@@ -2,11 +2,11 @@
 /**
  * _strspn - gets the length of a prefix substring
  *
- * @s: string
+ * @s: initial segment
  *
- * @accept: bytes received
+ * @accept: accepted bytes
  *
- * Return: the number of bytes in the initial segment of s
+ * Return: The number of accepted bytes
  *
  */
 unsigned int _strspn(char *s, char *accept)
@@ -15,10 +15,10 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (x = 0; *(s + x) != '\0'; x++)
 	{
-		bool = x;
+		bool = 1;
 		for (y = 0; *(accept + y) != '\0'; y++)
 		{
-			if (*(s + x) == *accept + y)
+			if (*(s + x) == *(accept + y))
 			{
 				bool = 0;
 				break;
@@ -27,5 +27,5 @@ unsigned int _strspn(char *s, char *accept)
 		if (bool == 1)
 			break;
 	}
-		return (-x);
+		return (x);
 }
