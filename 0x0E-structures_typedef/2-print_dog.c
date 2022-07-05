@@ -1,10 +1,14 @@
 #include "dog.h"
 #include <stdio.h>
+
 /**
  * print_dog - prints a dog
+ *
  * @d: dog to print
+ *
  * Return: Nothing
  */
+
 void print_dog(struct dog *d)
 {
 	if (d == 0)
