@@ -3,7 +3,7 @@
 /**
  * struct dog - Struct dog
  * @name: name
- * @owner:owner
+ * @owner: owner
  * Description: This struct is for dog
  */
 struct dog
