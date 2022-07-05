@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "dog.h"
+
 /**
  * init_dog - initializes a variable of type struct dog
  * @d: array
@@ -8,7 +9,8 @@
  * @owner: owner
  * Description: This struct is for dog
  */
-void init_dog(struct dog *d, char *name, float age, char *owner);
+
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
 		return;
